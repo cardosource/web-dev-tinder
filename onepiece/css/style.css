@@ -1,0 +1,166 @@
+h1, p {
+  font-family: "Roboto", sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.principal {
+  width: 100%;
+  height: 170vh;
+  background-color: #F4F4F4;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.principal #foto {
+  width: 500px;
+  height: 400px;
+  background-image: url("../imagem/luffy.jpeg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.principal #foto #passagem {
+  width: 500px;
+  height: 13px;
+  margin-top: 5px;
+  position: relative;
+}
+.principal #foto #escolha {
+  visibility: hidden;
+  margin-top: 150px;
+  width: 250px;
+  height: 100px;
+  border: 2px solid #03CC91;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(25deg);
+}
+.principal #foto #escolha h1 {
+  font-size: 100px;
+  font-weight: bold;
+  color: #03CC91;
+  position: relative;
+}
+.principal #foto #passagemum, .principal #foto #passagemdois {
+  cursor: pointer;
+  width: 230px;
+  height: 10px;
+  position: absolute;
+  margin-left: 10px;
+  border-radius: 3px;
+}
+.principal #foto #passagemdois {
+  margin-left: 260px;
+}
+.principal #foto #passagemum {
+  background-color: #F4F4F4;
+  border: 1px solid #040404;
+}
+.principal #foto #passagemdois {
+  border: 1px solid #F4F4F4;
+}
+.principal #mais {
+  width: 80px;
+  height: 80px;
+  background-color: #fd5564;
+  background-image: linear-gradient(62deg, #fd5564 0%, #ef4a75 100%);
+  border-radius: 50%;
+  margin-left: 350px;
+  margin-top: -50px;
+  text-align: center;
+  cursor: pointer;
+}
+.principal #mais .fa-down-long {
+  font-size: 40px;
+  margin-top: 20px;
+  color: #F4F4F4;
+}
+.principal #nome {
+  width: 500px;
+  height: 40px;
+}
+.principal #nome p {
+  color: #424242;
+  font-size: 30px;
+  font-weight: bold;
+}
+.principal #localidade {
+  width: 500px;
+  height: 50px;
+  position: relative;
+  border-bottom: 2px solid #cad2d0;
+}
+.principal #localidade p {
+  position: absolute;
+  top: 0;
+  margin-left: 40px;
+  color: #666363;
+  font-size: 20px;
+}
+.principal #localidade .fa-location-dot {
+  position: absolute;
+  top: 0;
+  color: #666363;
+  font-size: 23px;
+}
+.principal #descricao {
+  margin-top: 25px;
+  width: 500px;
+  height: 90px;
+}
+.principal #descricao p {
+  margin-top: 15px;
+  color: #666363;
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1px;
+}
+.principal #opcao {
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.24), #dadada);
+  margin-top: 0px;
+  width: 500px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.principal #opcao #x, .principal #opcao #estrela, .principal #opcao #coracao {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.principal #opcao #x {
+  border: 2px solid #F6506D;
+}
+.principal #opcao #estrela {
+  border: 2px solid #519CCA;
+}
+.principal #opcao #coracao {
+  border: 2px solid #03CC91;
+}
+.principal #opcao .fa-xmark, .principal #opcao .fa-star, .principal #opcao .fa-heart {
+  font-size: 70px;
+}
+.principal #opcao .fa-xmark {
+  color: #F6506D;
+}
+.principal #opcao .fa-star {
+  color: #519CCA;
+}
+.principal #opcao .fa-heart {
+  color: #03CC91;
+}
+
+/*# sourceMappingURL=style.css.map */
